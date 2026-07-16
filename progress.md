@@ -43,12 +43,12 @@
 
 | # | Task | Status |
 |---|------|--------|
-| 3.1 | Build page layout (title, filter, table) | [ ] |
-| 3.2 | Render merchant table with all required columns | [ ] |
-| 3.3 | Add color-coded risk badges | [ ] |
-| 3.4 | Implement risk level filter (All / High / Medium / Low) | [ ] |
-| 3.5 | Implement column sorting (name, plan, risk) | [ ] |
-| 3.6 | Basic responsive / readable styling | [ ] |
+| 3.1 | Build page layout (title, filter, table) | [x] |
+| 3.2 | Render merchant table with all required columns | [x] |
+| 3.3 | Add color-coded risk badges | [x] |
+| 3.4 | Implement risk level filter (All / High / Medium / Low) | [x] |
+| 3.5 | Implement column sorting (name, plan, risk) | [x] |
+| 3.6 | Basic responsive / readable styling | [x] |
 
 ---
 
@@ -99,9 +99,9 @@ Each phase follows this gate:
 
 ## Current status
 
-**Phase:** 2 complete — awaiting your approval before Phase 3  
+**Phase:** 3 complete — awaiting your approval before Phase 4  
 **Blockers:** None  
-**Next step:** You test Phase 2 logic, then approve to start Phase 3 (UI)
+**Next step:** You test Phase 3 UI, then approve to start Phase 4 (Verification)
 
 ---
 
@@ -109,6 +109,7 @@ Each phase follows this gate:
 
 | Date | Note |
 |------|------|
+| 2026-07-16 | Phase 3 complete. Full dashboard UI with filter, sort, and styling. |
 | 2026-07-16 | Pushed Phases 0–2 to GitHub (`736247c` on `main`). |
 | 2026-07-16 | Phase 2 complete. 9 mock merchants, risk + recommendation logic verified. |
 | 2026-07-16 | Phase 1 complete. Scaffold created; local serve verified (HTTP 200). |
