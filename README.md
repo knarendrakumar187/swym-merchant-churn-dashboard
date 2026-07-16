@@ -6,6 +6,12 @@ See [spec.md](./spec.md) for full requirements and [progress.md](./progress.md) 
 
 ## Run locally
 
+```bash
+node verify-phase4.js
+```
+
+Runs 30 automated checks (risk tiers, recommendations, filter, sort).
+
 ### Option A — VS Code Live Server
 
 1. Open this folder in VS Code / Cursor.

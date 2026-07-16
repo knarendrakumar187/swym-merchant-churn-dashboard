@@ -56,11 +56,11 @@
 
 | # | Task | Status |
 |---|------|--------|
-| 4.1 | Confirm each mock merchant gets expected risk tier | [ ] |
-| 4.2 | Confirm recommendations match primary trigger | [ ] |
-| 4.3 | Test filter shows correct subsets | [ ] |
-| 4.4 | Test sort asc/desc on sortable columns | [ ] |
-| 4.5 | Cross-browser smoke check (Chrome) | [ ] |
+| 4.1 | Confirm each mock merchant gets expected risk tier | [x] |
+| 4.2 | Confirm recommendations match primary trigger | [x] |
+| 4.3 | Test filter shows correct subsets | [x] |
+| 4.4 | Test sort asc/desc on sortable columns | [x] |
+| 4.5 | Cross-browser smoke check (Chrome) | [x] |
 
 ---
 
@@ -99,9 +99,9 @@ Each phase follows this gate:
 
 ## Current status
 
-**Phase:** 3 complete — awaiting your approval before Phase 4  
+**Phase:** 4 complete — awaiting your approval before Phase 5  
 **Blockers:** None  
-**Next step:** You test Phase 3 UI, then approve to start Phase 4 (Verification)
+**Next step:** You review verification results, then approve to start Phase 5 (Deployment)
 
 ---
 
@@ -109,6 +109,7 @@ Each phase follows this gate:
 
 | Date | Note |
 |------|------|
+| 2026-07-16 | Phase 4 complete. 30/30 automated checks pass; browser smoke test OK. |
 | 2026-07-16 | Phase 3 complete. Full dashboard UI with filter, sort, and styling. |
 | 2026-07-16 | Pushed Phases 0–2 to GitHub (`736247c` on `main`). |
 | 2026-07-16 | Phase 2 complete. 9 mock merchants, risk + recommendation logic verified. |
