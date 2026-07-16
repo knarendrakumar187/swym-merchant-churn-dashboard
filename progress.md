@@ -109,5 +109,6 @@ Each phase follows this gate:
 
 | Date | Note |
 |------|------|
+| 2026-07-16 | Pushed Phases 0–2 to GitHub (`736247c` on `main`). |
 | 2026-07-16 | Phase 2 complete. 9 mock merchants, risk + recommendation logic verified. |
 | 2026-07-16 | Phase 1 complete. Scaffold created; local serve verified (HTTP 200). |
