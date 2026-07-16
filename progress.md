@@ -68,10 +68,10 @@
 
 | # | Task | Status |
 |---|------|--------|
-| 5.1 | Push to GitHub | [ ] |
-| 5.2 | Enable GitHub Pages | [ ] |
+| 5.1 | Push to GitHub | [x] |
+| 5.2 | Enable GitHub Pages | [~] |
 | 5.3 | Confirm live URL loads dashboard correctly | [ ] |
-| 5.4 | Record live URL in README | [ ] |
+| 5.4 | Record live URL in README | [x] |
 
 ---
 

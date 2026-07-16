@@ -37,13 +37,16 @@ Open `http://localhost:8080`.
 
 ## Deploy to GitHub Pages
 
-1. Push this repo to GitHub.
-2. Go to **Settings → Pages**.
-3. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
-4. Choose branch `main` (or `master`) and folder **`/ (root)`**.
-5. Save. After a minute or two, the site is live at:
+Static site — deploy directly from the `main` branch (no build step).
 
-   `https://<username>.github.io/<repo-name>/`
+### One-time setup
+
+1. Open repo **Settings → Pages**.
+2. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
+3. Choose branch **`main`** and folder **`/ (root)`**.
+4. Click **Save**. The site is live in ~1–2 minutes at the URL below.
+
+> **Note:** GitHub Actions deployment requires a PAT with `workflow` scope. Branch deploy is used for this project instead.
 
 ## Project structure
 
@@ -62,4 +65,6 @@ sywm/
 
 ## Live demo
 
-*(URL will be added after deployment in Phase 5.)*
+**https://knarendrakumar187.github.io/swym-merchant-churn-dashboard/**
+
+*(Enable Pages under Settings → Pages → branch `main` / `(root)` if you see a 404.)*
